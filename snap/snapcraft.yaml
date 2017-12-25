@@ -1,15 +1,21 @@
-name: my-snap-name # you probably want to 'snapcraft register <name>'
-version: '0.1' # just for humans, typically '1.2+git' or '1.3.2'
-summary: Single-line elevator pitch for your amazing snap # 79 char long summary
+name: xt
+version: git
+summary: Tile coordinates to another format converter.
 description: |
-  This is my-snap's description. You have a paragraph or two to tell the
-  most important story about your snap. Keep it under 100 words though,
-  we live in tweetspace and your description wants to look good in the snap
-  store.
+  xt is a tool that can automatically convert a stream of coordinates
+  to another format that is specified. 
+  Developed by the MapBox team.
 
-confinement: devmode # use 'strict' once you have the right plugs and slots
+grade: stable
+confinement: strict
+
+apps:
+  xt: 
+    command: bin/xt
+    plugs:
+      - network
 
 parts:
-  my-part:
-    # See 'snapcraft plugins'
-    plugin: nil
+  xt:
+    source: https://github.com/mapbox/xt.git
+    plugin: python
