@@ -1,9 +1,9 @@
 <h1 align="center">
   <br />
-  xt
+  Firebase Tools
 </h1>
 
-<p align="center"><b>This is the snap for xt</b>, <i>"Automatically converts a stream of tile coordinates to another format"</i>. It works on Ubuntu, Fedora, Debian, and other major Linux
+<p align="center"><b>This is the snap for firebase-tools</b>, <i>"Deploy a project, run a local server, interact with your data or import/export from firebase"</i>. It works on Ubuntu, Fedora, Debian, and other major Linux
 distributions.</p>
 
 <!-- Uncomment and modify this when you are provided a build status badge
@@ -14,7 +14,7 @@ distributions.</p>
 
 ## Install
 
-    sudo snap install xt
+    sudo snap install firebase
 
 ([Don't have snapd installed?](https://snapcraft.io/docs/core/install))
 
