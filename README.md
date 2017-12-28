@@ -1,9 +1,9 @@
 <h1 align="center">
   <br />
-  Firebase Tools
+  Newman 
 </h1>
 
-<p align="center"><b>This is the snap for firebase-tools</b>, <i>"Deploy a project, run a local server, interact with your data or import/export from firebase"</i>. It works on Ubuntu, Fedora, Debian, and other major Linux
+<p align="center"><b>This is the snap for Newman</b>, <i>"CLI Tool for Postman"</i>. It works on Ubuntu, Fedora, Debian, and other major Linux
 distributions.</p>
 
 <!-- Uncomment and modify this when you are provided a build status badge
@@ -13,10 +13,11 @@ distributions.</p>
 -->
 
 ## Install
-    Currently the snap is in devmode.
+Currently the snap is in devmode.
 
-    Steps to install this snap : 
-    We need to first create a snap and then finally install it. 
+Steps to install this snap : 
+We need to first create a snap and then finally install it. 
+
     ```bash
     $ git clone https://github.com/sivcan/Newman.git 
     $ cd Newman 
@@ -24,8 +25,8 @@ distributions.</p>
     $ sudo snap install newman_*.snap --devmode --dangerous 
     ```
 
-    Newman is now installed.
-    Refer to the docs on how to use it : (Newman docs)[https://github.com/postmanlabs/newman]
+Newman is now installed.
+Refer to the docs on how to use it : (Newman docs)[https://github.com/postmanlabs/newman]
     
 
 ([Don't have snapd installed?](https://snapcraft.io/docs/core/install))
