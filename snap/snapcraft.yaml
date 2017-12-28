@@ -1,24 +1,24 @@
-name: firebase
-version: master
-summary: These are the Firebase Command Line Interface (CLI) Tools.
+name: newman
+version: git
+summary: The CLI companion for postman.
 description: |
-  These tools can be used to :  
-  - Deploy code and assets to your Firebase projects
-  - Run a local web server for your Firebase Hosting site
-  - Interact with data in your Firebase database
-  - Import/Export users into/from Firebase Auth
+  Using Newman, one can effortlessly run and test Postman 
+  Collections directly from the command-line. 
 
+  It's built with extensibility in mind so that you can 
+  easily integrate it into your continuous integration 
+  servers and build systems.
 
-grade: stable
-confinement: strict
+grade: devel
+confinement: devmode
 
 apps:
-  firebase: 
-    command: firebase
+  newman: 
+    command: newman
     plugs:
       - network
 
 parts:
-  firebase:
+  newman:
     plugin: nodejs
-    node-packages: [firebase-tools]
+    node-packages: [newman]
