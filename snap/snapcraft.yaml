@@ -1,21 +1,24 @@
-name: xt
-version: git
-summary: Tile coordinates to another format converter.
+name: firebase
+version: master
+summary: These are the Firebase Command Line Interface (CLI) Tools.
 description: |
-  xt is a tool that can automatically convert a stream of coordinates
-  to another format that is specified. 
-  Developed by the MapBox team.
+  These tools can be used to :  
+  - Deploy code and assets to your Firebase projects
+  - Run a local web server for your Firebase Hosting site
+  - Interact with data in your Firebase database
+  - Import/Export users into/from Firebase Auth
+
 
 grade: stable
 confinement: strict
 
 apps:
-  xt: 
-    command: bin/xt
+  firebase: 
+    command: firebase
     plugs:
       - network
 
 parts:
-  xt:
-    source: https://github.com/mapbox/xt.git
-    plugin: python
+  firebase:
+    plugin: nodejs
+    node-packages: [firebase-tools]
