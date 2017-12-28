@@ -25,7 +25,7 @@ We need to first create a snap and then finally install it.
     
 
 Newman is now installed.
-Refer to the docs on how to use it : (Newman docs)[https://github.com/postmanlabs/newman]
+Refer to the docs on how to use it : [Newman docs](https://github.com/postmanlabs/newman)
     
 
 ([Don't have snapd installed?](https://snapcraft.io/docs/core/install))
