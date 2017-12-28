@@ -18,12 +18,11 @@ Currently the snap is in devmode.
 Steps to install this snap : 
 We need to first create a snap and then finally install it. 
 
-    ```bash
     $ git clone https://github.com/sivcan/Newman.git 
     $ cd Newman 
     $ snapcraft
     $ sudo snap install newman_*.snap --devmode --dangerous 
-    ```
+    
 
 Newman is now installed.
 Refer to the docs on how to use it : (Newman docs)[https://github.com/postmanlabs/newman]
