@@ -1,8 +1,9 @@
 <h1 align="center">
+  <img src="https://raw.githubusercontent.com/postmanlabs/postmanlabs.github.io/develop/global-artefacts/postman-logo%2Btext-320x132.png" alt="postman-logo"/>
   <br />
   Newman 
 </h1>
-
+<hr>
 <p align="center"><b>This is the snap for Newman</b>, <i>"Rhe CLI companion for Postman"</i>. It works on Ubuntu, Fedora, Debian, and other major Linux
 distributions.</p>
 
