@@ -3,7 +3,7 @@
   <br />
   Newman 
 </h1>
-<p align="center"><b>This is the snap for Newman</b>, <i>"Rhe CLI companion for Postman"</i>. It works on Ubuntu, Fedora, Debian, and other major Linux
+<p align="center"><b>This is the snap for Newman</b>, <i>"The CLI companion for Postman"</i>. It works on Ubuntu, Fedora, Debian, and other major Linux
 distributions.</p>
 
 <!-- Uncomment and modify this when you are provided a build status badge
